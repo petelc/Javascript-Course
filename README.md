@@ -1,6 +1,6 @@
 # My Work through of the Complete JavaScript Course
 
-\*\* I will work through the starter folder for each section
+&gt; I will work through the starter folder for each section
 
 # Course Material and FAQ for my Complete JavaScript Course
 
