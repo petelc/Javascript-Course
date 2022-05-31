@@ -78,3 +78,38 @@
 // } else {
 //   console.log(`Mark\s NEW BMI is the same as John\'s`);
 // }
+
+// // * Strings
+
+// const firstName = 'Peter';
+// const job = 'Software Development Specialist 2';
+// const birthYear = 1966;
+// const year = 2050;
+
+// // * Concatenation
+// const me =
+//   "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+// console.log(me);
+
+// // * String Literal
+// const meNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(meNew);
+
+// // * Multiple Lines
+// console.log('String with \n\
+// multiple \n\
+// lines');
+
+// console.log(`String with
+// multiple lines
+// in a string
+// literal`);
+
+// * Decisions
+
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log(`Sarah can take her driver license test 🚙`);
+}
