@@ -10,7 +10,7 @@
 // --------------------------------------
 
 // Given an array of temperatures of one day, calculate the temperature amplitude. Keep in mind there might be a senser error.
-
+/** 
 const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 // 1). Understanding the problem
@@ -77,3 +77,46 @@ console.log(amplitudeNew);
 // const array1 = ['a', 'b', 'c'];
 // const array2 = ['d', 'e', 'f'];
 // const array3 = array1.concat(array2);
+*/
+
+// const measureKelvin = function () {
+//   const measurement = {
+//     type: 'temp',
+//     unit: 'celsius',
+
+//     // C. FIX
+//     // value: Number(prompt('Degrees celcius:')),
+//     value: 10,
+//   };
+
+//   //   B FIND
+//   //   console.log(measurement);
+//   console.table(measurement);
+
+//   //   console.log(measurement.value);
+//   const kelvin = measurement.value + 273;
+//   return kelvin;
+// };
+
+// // A) Find the bug
+// console.log(measureKelvin());
+
+// const calcTempAmplitudeBug = function (t1, t2) {
+//   const temps = t1.concat(t2);
+//   console.log(temps);
+//   let max = 0;
+//   let min = 0;
+//   for (let i = 0; i < temps.length; i++) {
+//     const currTemp = temps[i];
+//     if (typeof currTemp !== 'number') continue;
+
+//     if (currTemp > max) max = currTemp;
+//     if (currTemp < min) min = currTemp;
+//   }
+//   console.log(max, min);
+//   return max - min;
+// };
+
+// // calcTempAmplitude([3, 7, 4, 1, 8]);
+// const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
+// console.log(amplitudeBug);
